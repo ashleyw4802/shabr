@@ -28,8 +28,33 @@
         height: 100%;
         background: linear-gradient( rgba(0, 0, 0, 0.9),
         rgba(0, 0, 0, 0.1)),
-        url('https://c1.staticflickr.com/9/8313/8066181900_29ea265122_b.jpg') no-repeat center;
+        <img src="balloon-1.jpg"alt="Trulli">;
         background-size: cover
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    @media(min-width:768px) {
+        h1 {
+            font-size: 100px;
+        }
+        h2 {
+            font-size: 60px;
+        }
     }
 
     .text-vertical-center {
@@ -43,8 +68,11 @@
 <body>
 
     <header id="landing">
-        <h1>Skydance Hot Air Balloon Rides</h1>
-        <h2>Ride with the wind. Dance with the sky.</h2>
+        <div class="text-vertical-center">
+            <h1>Skydance</h1>
+            <h3>Hot Air Balloon Rides</h3>
+            <h2>Ride with the wind. Dance with the sky.</h2>
+        </div>
     </header>
 
     <div>
